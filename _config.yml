@@ -1,0 +1,47 @@
+# Permalinks
+permalink:           /:title/
+
+# Setup
+title:               mBot
+tagline:             Ми пройдемо усі уроки по mBot з цього вебсайту - https://www.uacodeacademy.com
+url:                 https://osvita-code.github.io/robot
+paginate:            1
+baseurl:             "https://osvita-code.github.io/robot"
+
+# Assets
+#
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir:          _sass
+  style:            :compressed
+
+# About/contact
+author:
+  name:              Sergey
+  url:               https://osvita-code.github.io/robot
+  email:             aserhii@protonmail.com
+
+google_analytics: UA-152987198-1
+
+footer-links:
+  email: aserhii@protonmail.com
+  github: serhii73
+
+# Custom vars
+version:             2.0.0
+github:
+  repo:              https://github.com/osvita-code/robot
+
+# Gems
+plugins:
+  - jekyll-paginate
+  - jekyll-gist
+  - jekyll-sitemap
+
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: all
+
+host: 0.0.0.0
+port: 4000
